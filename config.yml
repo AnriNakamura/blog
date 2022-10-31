@@ -1,6 +1,6 @@
-baseURL: http://ahiruno.netlify.app/
+baseURL: http://4n12i.netlify.app/
 languageCode: ja 
-title: ahiruno
+title: 4n12i
 paginate: 5
 theme: PaperMod
  
@@ -18,12 +18,12 @@ minify:
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  title: ahiruno 
-  description: "ahiruno blog"
-  # keywords: [Blog, Portfolio, PaperMod]
-  author: ahiruno 
+  title: 4n12i 
+  description: "blog"
+  keywords: [Blog, Portfolio, PaperMod]
+  author: 4n12i 
   # author: ["Me", "You"] # multiple authors
-  # images: ["<link or path of image for opengraph, twitter-cards>"]
+  # images: ["ahiru.jpg"]
   # DateFormat: "January 2, 2006"
 
   defaultTheme: auto # dark, light
@@ -55,19 +55,22 @@ params:
     # safari_pinned_tab: "<link / abs url>"
 
   label:
-    text: "ahiruno blog"
+    text: "💭 blog"
     # icon: /apple-touch-icon.png
     # iconHeight: 35
 
   # profile-mode
   profileMode:
-    # enabled: false # needs to be explicitly set
-    # title: "Welcome to ahiruno blog :)" 
-    # subtitle: "This is subtitle"
-    # imageUrl: "<img location>"
-    # imageWidth: 120
-    # imageHeight: 120
-    # imageTitle: my image
+    enabled: true # needs to be explicitly set
+    title: "4n12i" 
+    subtitle: >
+      colloge student in Japan  
+
+      security, low layer
+    imageUrl: "ahiru.jpg"
+    imageWidth: 120
+    imageHeight: 120
+    imageTitle: my image
     # buttons:
     #   - name: Posts
     #     url: posts
@@ -75,16 +78,13 @@ params:
     #     url: tags
 
   # home-info mode
-  homeInfoParams:
-    Title: "Welcome to ahiruno blog 👋"
-    Content: >
-      My name is Ahiruno
-
-      - I'm a college student in Japan :D
+  # homeInfoParams:
+  #   Title: "title"
+  #   Content: "content"
 
   socialIcons:
     - name: twitter
-      url: "https://twitter.com/a_hi_ru_no"
+      url: "https://twitter.com/4n12i"
     - name: github
       url: "https://github.com/AnriNakamura"
     - name: linkedin
