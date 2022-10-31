@@ -46,7 +46,7 @@ params:
   # tocopen: false
 
   assets:
-    # disableHLJS: true # to disable highlight.js
+    disableHLJS: true # to disable highlight.js
     # disableFingerprinting: true
     # favicon: "<link / abs url>"
     # favicon16x16: "<link / abs url>"
@@ -64,7 +64,7 @@ params:
     enabled: true # needs to be explicitly set
     title: "4n12i" 
     subtitle: >
-      colloge student in Japan  
+      college student in Japan  
 
       security, low layer
     imageUrl: "ahiru.jpg"
@@ -98,19 +98,19 @@ params:
         #yandex:
         #SiteVerificationTag: "XYZabc"
 
-  cover:
+  # cover:
     # hidden: true # hide everywhere but not in structured data
     # hiddenInList: true # hide on list pages and home
     # hiddenInSingle: true # hide on single page
 
   editPost:
-    URL: "https://github.com/<path_to_repo>/content"
+    URL: "https://github.com/AnriNakamura/blog/tree/master/content"
     Text: "Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link
 
   # for search
   # https://fusejs.io/api/options.html
-  fuseOpts:
+  # fuseOpts:
   #  isCaseSensitive: false
   #  shouldSort: true
   #  location: 0
