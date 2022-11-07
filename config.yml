@@ -64,9 +64,7 @@ params:
     enabled: true # needs to be explicitly set
     title: "4n12i" 
     subtitle: >
-      college student in Japan  
-
-      security, low layer
+      a college student in Japan  
     imageUrl: "ahiru.jpg"
     imageWidth: 120
     imageHeight: 120
@@ -88,7 +86,7 @@ params:
     - name: github
       url: "https://github.com/AnriNakamura"
     - name: linkedin
-    - url: "https://www.linkedin.com/in/anri-nakamura/"
+    - url: "https://www.linkedin.com/in/anri-nakamura"
 
         #analytics:
         # google:
@@ -121,22 +119,14 @@ params:
 
 menu:
   main:
-    # - identifier: categories
-    #   name: categories
-    #   url: /categories/
-    #   weight: 10
-    # - identifier: tags
-    #   name: tags
-    #   url: /tags/
-    #   weight: 20
     - identifier: archives
       name: archives
       url: /archives/
-      weight: 20
+      weight: 5
     - identifier: posts
       name: posts
       url: /posts/
-      weight: 20
+      weight: 10
 
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 # pygmentsUseClasses: true
