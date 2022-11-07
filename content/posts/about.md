@@ -1,7 +1,7 @@
 ---
 title: "About Me"
 date: 2022-08-13T18:22:26+09:00
-draft: false
+draft: true
 ---
 
 セキュリティと低レイヤーが好きなB2
