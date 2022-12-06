@@ -21,7 +21,7 @@ params:
   title: 4n12i 
   description: "blog"
   keywords: [Blog, Portfolio, PaperMod]
-  author: 4n12i 
+  # author: 4n12i 
   # author: ["Me", "You"] # multiple authors
   # images: ["ahiru.jpg"]
   # DateFormat: "January 2, 2006"
@@ -63,8 +63,7 @@ params:
   profileMode:
     enabled: true # needs to be explicitly set
     title: "4n12i" 
-    subtitle: >
-      a college student in Japan  
+    #subtitle: subtitle  
     imageUrl: "ahiru.jpg"
     imageWidth: 120
     imageHeight: 120
@@ -86,7 +85,7 @@ params:
     - name: github
       url: "https://github.com/AnriNakamura"
     - name: linkedin
-    - url: "https://www.linkedin.com/in/anri-nakamura"
+      url: "https://www.linkedin.com/in/anri-nakamura"
 
         #analytics:
         # google:
