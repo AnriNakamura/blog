@@ -5,7 +5,7 @@ draft: false
 ShowToc: true
 ---
 
-CODE BLUE に学生スタッフ（= 学スタ）として参加しました :raising_hand:
+[CODE BLUE](https://codeblue.jp/2022/) に学生スタッフ（= 学スタ）として参加しました :raising_hand:
 
 ## CODE BLUE とは
 - 毎年日本で開催されるセキュリティの国際会議
